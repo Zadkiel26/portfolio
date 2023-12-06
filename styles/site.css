@@ -1,10 +1,18 @@
 /*
-    Color Palette:
-    #3459D1
-    #2A48A8
-    #3D67F4
-    #20367F
-    #162557
+
+============================================
+Title: site.css
+Author: Zadkiel Rodriguez Alvarado
+Date: 12/05/2023
+Description: Styling for portfolio website
+============================================
+
+Color Palette:
+#3459D1
+#2A48A8
+#3D67F4
+#20367F
+#162557
 
 */
 
@@ -18,7 +26,7 @@
 
 body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-    height: 100vh;
+    height: 100%;
     background-color: #162557af;
 }
 
@@ -558,6 +566,7 @@ nav a:hover {
 .title-main {
     color: #fff;
     text-transform: uppercase;
+    font-family: 'Poppins';
     margin: 40px;
     background-color: #20367F;
     width: 102%;
@@ -599,6 +608,7 @@ nav a:hover {
 
 .title {
     font-size: 48px;
+    font-family: 'Poppins';
     text-align: center;
     background-color: #20367F;
     color: #fff;
@@ -629,7 +639,7 @@ nav a:hover {
     text-align: center;
 }
 
-.card {
+.card-bucket-list {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
     padding: 12px;
     width: 500px;
@@ -643,14 +653,71 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
-.card:hover {
+.card-bucket-list:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
 
 .content {
     width: 100%;
-    list-style: none;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.content li {
+  list-style: none;
+}
+
+/* 
+    about styling
+*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 12px;
+  width: 500px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+  transform: scale(1.01);
+}
+
+.img-title {
+  padding: 10px;
+  font-size: 24px;
+  color: #2A48A8;
+}
+
+.about-img {
+  width: 400px;
+  height: 500px;
+}
+
+.img-credit {
+  opacity: 0.60;
+  text-transform: uppercase;
+}
+
+.img-credit a {
+  text-decoration: none;
+}
+
+.bio-card {
+  width: 800px;
+}
+
+.bio-text {
+  font-size: 16px;
+  font-family: 'Poppins';
+  line-height: 2;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 /*
@@ -661,6 +728,7 @@ footer {
     background-color: #fff;
     padding: 10px 0;
     text-align: center;
+    bottom: 0;
 }
 
 .links-container {
@@ -677,4 +745,9 @@ footer {
 
 .links-container span {
     margin-right: 5px;
+}
+
+.copyright {
+  color: #3459D1;
+  font-size: 14px;
 }
