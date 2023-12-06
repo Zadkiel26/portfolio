@@ -89,6 +89,27 @@ nav a:hover {
     color: #4a75ff;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: -15px;    
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*
     Astronaut styling
     Source:
@@ -718,6 +739,103 @@ nav a:hover {
   margin-bottom: 30px;
   text-align: center;
   padding: 30px;
+}
+
+/*
+    resume styling
+*/
+.resume {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.resume-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 12px;
+  width: 1000px;
+  cursor: default;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+
+.email {
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+
+.resume-text {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #3459D1;
+  font-family: 'Poppins';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download-link {
+  background-color: transparent;
+  border: 2px solid #3459D1;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+
+.download-link:hover {
+  background-color: #3459D1;
+  border: 2px solid #000;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+hr {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.resume-section-title {
+  font-size: 20px;
+}
+
+.experience-list li {
+  margin-bottom: 5px;
+}
+
+.td-none {
+  text-decoration: none;
 }
 
 /*
