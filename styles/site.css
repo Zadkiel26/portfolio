@@ -931,6 +931,15 @@ hr {
   animation: 1s slide-fade 1s forwards;
 }
 
+/*
+  api unit test styling
+*/
+.api-unit-test {
+  opacity: 0;
+  margin-bottom: 100px;
+  animation: 1s slide-fade 1s forwards;
+}
+
 
 /*
     footer styling
