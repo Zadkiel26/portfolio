@@ -16,15 +16,15 @@ class NavBar extends HTMLElement {
         this.innerHTML = `
         <header>
             <nav class="navbar">
-                <a href="/index.html">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/projects.html">Project</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Project</a>
                 <div class="dropdown">
                     <a href="#">Extra</a>
                     <div class="dropdown-content">
-                        <a href="/database.html">Database Diagrams</a>
-                        <a href="/api-unit-test.html">API Unit Test</a>
-                        <a href="/resume.html">Resume</a>
+                        <a href="database.html">Database Diagrams</a>
+                        <a href="api-unit-test.html">API Unit Test</a>
+                        <a href="resume.html">Resume</a>
                     </div>
                 </div>
             </nav>
