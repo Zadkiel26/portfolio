@@ -718,20 +718,19 @@ nav a:hover {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-  padding: 12px;
+  margin: 30px auto;
+  padding: 25px;
   width: 500px;
   cursor: default;
   overflow: hidden;
   text-align: center;
   background-color: #fff;
   border-radius: 4px;
-  margin: 30px auto;
   transition: all 0.3s ease;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
-  
 }
 
 .hover-scale:hover {
@@ -857,7 +856,8 @@ nav a:hover {
 
 hr {
   border: 1px solid #000;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .uppercase {
@@ -876,8 +876,12 @@ hr {
   padding-left: 40px;
 }
 
-.pl-180 {
-  padding-left: 180px;
+.pl-110 {
+  padding-left: 110px;
+}
+
+.pl-150 {
+  padding-left: 150px;
 }
 
 .ml-10 {
@@ -921,9 +925,44 @@ hr {
   animation: 1s slide-fade 1s forwards;
 }
 
+.projects-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 400px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.projects-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.projects-links-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
 .project-img {
-  width: 75%;
+  width: 285px;
+  height: 200px;
   opacity: 0.75;
+}
+
+.description {
+  padding: 10px;
+  font-size: 14px;
 }
 
 /*
