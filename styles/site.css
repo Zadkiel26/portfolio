@@ -883,6 +883,10 @@ hr {
   padding-left: 150px;
 }
 
+.pr-120 {
+  padding-right: 120px;
+}
+
 .ml-10 {
   margin-left: 10px;
 }
@@ -971,6 +975,23 @@ hr {
   opacity: 0;
   margin-bottom: 100px;
   animation: 1s slide-fade 1s forwards;
+}
+
+.card-database {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 600px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.card-database:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
 
 /*
