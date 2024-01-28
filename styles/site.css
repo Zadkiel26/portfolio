@@ -121,7 +121,7 @@ nav a:hover {
 
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -981,7 +981,7 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   margin: 30px auto;
   padding: 25px;
-  width: 600px;
+  width: 800px;
   cursor: default;
   overflow: hidden;
   text-align: center;
