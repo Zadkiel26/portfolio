@@ -116,23 +116,22 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 20px;
 }
 
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 /*
@@ -875,14 +874,6 @@ hr {
   padding-left: 40px;
 }
 
-.pl-110 {
-  padding-left: 110px;
-}
-
-.pl-150 {
-  padding-left: 150px;
-}
-
 .pr-120 {
   padding-right: 120px;
 }
@@ -932,7 +923,7 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   margin: 30px auto;
   padding: 25px;
-  width: 400px;
+  width: 600px;
   cursor: default;
   overflow: hidden;
   text-align: center;
@@ -944,6 +935,10 @@ hr {
 
 .projects-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.projects-card ul {
+  list-style: none;
 }
 
 .projects-links-container {
@@ -1003,6 +998,22 @@ hr {
   animation: 1s slide-fade 1s forwards;
 }
 
+.api-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 600px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.api-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
 
 /*
     footer styling
