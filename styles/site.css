@@ -127,8 +127,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
 }
 
 /*
@@ -1009,6 +1007,23 @@ hr {
 }
 
 .api-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.api-card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 800px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.api-card-2:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
 
