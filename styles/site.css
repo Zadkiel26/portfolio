@@ -91,6 +91,10 @@ nav a:hover {
     color: #4a75ff;
 }
 
+.dropdown-content-dev a:hover {
+  color: #4a75ff;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -1028,6 +1032,39 @@ hr {
 
 .api-card-2:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+/*
+    devops styling
+*/
+.devops-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 600px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.devops-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.devops-card-video {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 30px auto;
+  padding: 25px;
+  width: 1200px;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 /*
