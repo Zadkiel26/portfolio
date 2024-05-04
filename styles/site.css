@@ -965,6 +965,12 @@ hr {
   font-size: 14px;
 }
 
+.helper {
+  padding-bottom: 40px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #575757;
+}
+
 /*
   database diagram styling
 */
