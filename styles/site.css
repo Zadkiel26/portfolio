@@ -966,9 +966,10 @@ hr {
 }
 
 .helper {
+  color: #2A48A8;
   padding-bottom: 40px;
   font-style: italic;
-  text-shadow: 1px 1px 2px #575757;
+  text-shadow: 1px 1px 2px #a7a3a3;
 }
 
 /*
