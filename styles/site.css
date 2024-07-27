@@ -854,10 +854,14 @@ nav a:hover {
   color: #fff;
 }
 
+.firstHR {
+  margin-bottom: 10px;
+}
+
 hr {
   border: 1px solid #000;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .uppercase {
@@ -967,9 +971,14 @@ hr {
 
 .helper {
   color: #2A48A8;
-  margin-bottom: 40px;
-  font-style: italic;
-  text-shadow: 1px 1px 2px #a7a3a3;
+  font-weight: bold;
+}
+
+.instruction-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 /*
